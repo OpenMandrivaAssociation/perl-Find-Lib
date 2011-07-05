@@ -1,9 +1,9 @@
 %define upstream_name    Find-Lib
-%define upstream_version 1.01
+%define upstream_version 1.03
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    Helper to find libs to use in the filesystem
 License:    GPL+ or Artistic
