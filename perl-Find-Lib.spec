@@ -1,15 +1,15 @@
 %define upstream_name    Find-Lib
-%define upstream_version 1.03
+%define upstream_version 1.04
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.04
+Release:	1
 
 Summary:	Helper to find libs to use in the filesystem
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Find/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Find/Find-Lib-1.04.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(File::Spec)
@@ -69,3 +69,4 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Wed Aug 12 2009 cpan2dist 0.06-1mdv
 - initial mdv release, generated with cpan2dist
+
